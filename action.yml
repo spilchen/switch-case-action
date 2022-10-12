@@ -22,7 +22,7 @@ runs:
   using: "composite"
   steps:
     - name: Parse Conditionals and Value
-      uses: actions-ecosystem/action-regex-match@v2
+      uses: spilchen/action-regex-match@v1
       id: parse-value
       with:
         text: ${{ inputs.conditionals-with-values }}
